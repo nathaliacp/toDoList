@@ -1,0 +1,183 @@
+body {
+    background-color: #202124;
+    margin-top: 5rem;
+    display: flex;
+    justify-content: center;
+}
+
+.mainSection {
+    background-color: #FFFFFF;
+    border-radius: 0.625rem;
+    width: 41rem;
+    height: 38rem;
+    overflow: auto;
+}
+
+h1 {
+    font-family: Roboto;
+    font-style: normal;
+    font-size: 2rem;
+    font-weight: 500;
+    line-height: 1.188rem;
+    border-bottom: 0.063rem solid #CED4DA;
+    padding-left: 1.813rem;
+    padding-top: 1.25rem;
+    padding-bottom: 1.25rem;
+}
+
+h2 {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 1.5rem;
+    line-height: 1.063rem;
+    padding-left: 1.813rem;
+    margin-top: 1.375rem;
+}
+
+input[type="text"] {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 1rem;
+    line-height: 1.188rem;
+    color: #ADB5BD;
+    width: 29.375rem;
+    height: 3rem;
+    border: 0.063rem solid #CED4DA;
+    border-radius: 0.25rem;
+    margin-left: 1.813rem;
+    padding: 0rem 0rem 0rem 1rem;
+}
+
+.insertButton {
+    background-color: #212529;
+    border-radius: 0.25rem;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 1rem;
+    line-height: 1.188rem;
+    color: #FFFFFF;
+    width: 6.625rem;
+    height: 3rem;
+}
+
+.insertButton:hover {
+    cursor: pointer;
+}
+
+.textExample {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 0.85rem;
+    line-height: 0.938rem;
+    color: #99A0A7;
+    padding-left: 1.813rem;
+    margin-top: 0.625rem;
+}
+
+h3 {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 1rem;
+    line-height: 1.063rem;
+    color: #212529;
+    padding-left: 1.875rem;
+    padding-top: 0.563rem;
+    padding-bottom: 0.625;
+    margin-top: 2.063;
+    background: #F8F9FA;
+}
+
+ul {
+    padding: 0rem;
+}
+
+.listItem {
+    background: #FFFFFF;
+    border-radius: 0.25rem;
+    margin-left: 1.875rem;
+    list-style: none;
+    height: 2.875rem;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-bottom: 1.125rem;
+}
+
+.listText {
+    font-family: Roboto;
+    font-weight: normal;
+    font-size: 0.938rem;
+    line-height: 1.063rem;
+    color: #212529;
+    padding-top: 0.875rem;
+    padding-bottom: 0.938rem;
+    margin-left: 1.25rem;
+}
+
+.checkbox {
+    background-color: #E6FCF5;
+    background-image: url(/assets/img/img1.svg);
+    background-repeat: no-repeat;
+    background-position: center;
+    border-radius: 0.125rem;
+    width: 1.438rem;
+    height: 1.438rem;
+    cursor: pointer;
+}
+
+.removeButton {
+    background-color: #F2F2F2;
+    background-image: url(/assets/img/img3.svg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 0.75rem;
+    border: none;
+    border-radius: 0.125rem;
+    width: 1.438rem;
+    height: 1.438rem;
+    position: sticky;
+    left: 37rem;
+}
+
+.removeButton:hover {
+    cursor: pointer;
+}
+
+.checkmark {
+    background-color: #12B886;
+    background-image: url(/assets/img/img2.svg);
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 1.438rem;
+    height: 1.438rem;
+    cursor: pointer;
+}
+
+.textItemChecked {
+    font-style: italic;
+    text-decoration: line-through;
+}
+
+.itemList {
+    background-color: #F8F9FA;
+}
+
+section>p:last-child {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 1rem;
+    line-height: 1.063rem;
+    color: #212529;
+    text-align: center;
+    margin-top: 8rem;
+}
+
+.removeParagraph {
+    display: none;
+}

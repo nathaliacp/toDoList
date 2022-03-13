@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+    <title>To Do List</title>
+
+    <link rel="stylesheet" href="./assets/css/style.css" type="text/css">
+</head>
+
+<body>
+    <section class="mainSection" id="mainSection">
+        <h1>💻 Daily tasks</h1>
+
+        <h2>Tarefa</h2>
+        <input id="valueList" type="text" placeholder="Digite sua nova tarefa aqui...">
+        <button id="insertItem" class="insertButton">Inserir</button>
+
+        <p class="textExample">Ex: sair para comprar pão, ir na academia</p>
+
+        <h3>Minhas Tarefas</h3>
+        <ul id="parentList">
+            <!--
+                            <li class = "listItem">
+                                <p class = "listText" id="listText"></p>
+                                <button class ="removeButton"></button>
+                                <span class="checkbox">
+                            </li>
+                        -->
+        </ul>
+        <p id="changeParagraph">Você não possui nenhuma tarefa</p>
+    </section>
+
+    <script src="./assets/js/script.js"></script>
+</body>
+
+</html>
