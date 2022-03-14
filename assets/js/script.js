@@ -7,16 +7,17 @@ const buttonAdd = document.getElementById("insertItem");
 function newItem() {
     const valueList = document.getElementById("valueList");
     const removeP = document.getElementById("changeParagraph");
-
     const itemList = document.createElement("li");
     const textItem = document.createElement("p");
     const checkedItem = document.createElement("span");
     const removeItem = document.createElement("button");
 
+
     itemList.classList.add("listItem");
     textItem.classList.add("listText");
     textItem.id = "listText"
     checkedItem.classList.add("checkbox");
+
     removeItem.classList.add("removeButton");
     removeP.classList.add("removeParagraph");
 
