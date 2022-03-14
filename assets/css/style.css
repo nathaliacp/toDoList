@@ -39,9 +39,9 @@ input[type="text"] {
     font-family: Roboto;
     font-style: normal;
     font-weight: 400;
-    font-size: 1rem;
+    font-size: 1.1rem;
     line-height: 1.188rem;
-    color: #ADB5BD;
+    color: #000000;
     width: 29.375rem;
     height: 3rem;
     border: 0.063rem solid #CED4DA;
@@ -113,9 +113,9 @@ ul {
 .listText {
     font-family: Roboto;
     font-weight: normal;
-    font-size: 0.938rem;
+    font-size: 1rem;
     line-height: 1.063rem;
-    color: #212529;
+    color: #000000;
     padding-top: 0.875rem;
     padding-bottom: 0.938rem;
     margin-left: 1.25rem;
