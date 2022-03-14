@@ -65,6 +65,8 @@ input[type="text"] {
 
 .insertButton:hover {
     cursor: pointer;
+    background-color: cornflowerblue;
+    border: cornflowerblue;
 }
 
 .textExample {
